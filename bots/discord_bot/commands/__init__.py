@@ -1,0 +1,1 @@
+from bots.discord_bot.commands.ping import Ping

@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "android 23 cyber clarice"
+version = "0.1.0"
+description = "Discord bot for product managing"
+authors = ["Clarice Hatischvili <claricehatischvili@gmail.com>"]
+license = "AGPL-3.0"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+"discord.py" = "^2.4.0"
+python-dotenv = "^1.0.1"
+python-telegram-bot = "^21.5"
+timedelta = "^2020.12.3"
+pytz = "^2024.2"
+
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.3"
+pytest-asyncio = "^0.24.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
